@@ -55,7 +55,7 @@ def choose_difficulty():
         try:
             difficulty = int(input("Выберите уровень сложности (1 - Легкий, 2 - Средний, 3 - Сложный): "))
             if difficulty == 1:
-                return 7, 19
+                return 19, 7
             elif difficulty == 2:
                 return 61, 7
             elif difficulty == 3:
